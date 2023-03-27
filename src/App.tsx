@@ -10,7 +10,6 @@ function App() {
 
   return (
     <>
-      <link href='http://localhost:5009/main.268941c5.css' rel='stylesheet' />
       <div className='fixed bottom-10 right-10 z-50'>
         {open && <ChatRoom customId={customId} />}
 

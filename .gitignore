@@ -11,6 +11,8 @@
 # production
 /build
 
+/public/widget
+
 # misc
 .DS_Store
 .env.local

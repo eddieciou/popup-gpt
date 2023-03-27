@@ -27,7 +27,8 @@
     "start": "PORT=5009 react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "build:widget": "react-scripts build && parcel build src/index.tsx --no-source-maps --dist-dir public/widget"
   },
   "eslintConfig": {
     "extends": [
@@ -51,6 +52,8 @@
     "@types/react-scroll-to-bottom": "^4.2.0",
     "@typescript-eslint/eslint-plugin": "^5.55.0",
     "@typescript-eslint/parser": "^5.55.0",
+    "autoprefixer": "^10.4.14",
+    "buffer": "^5.7.1",
     "eslint": "^8.36.0",
     "eslint-config-prettier": "^8.7.0",
     "eslint-import-resolver-typescript": "^3.5.3",
@@ -59,6 +62,8 @@
     "eslint-plugin-react": "^7.32.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-tailwindcss": "^3.10.1",
+    "parcel": "^2.8.3",
+    "postcss": "^8.4.21",
     "prettier": "^2.8.4",
     "tailwindcss": "^3.2.7"
   }
